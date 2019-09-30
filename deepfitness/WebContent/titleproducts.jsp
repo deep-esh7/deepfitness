@@ -20,6 +20,6 @@
 SELECT * heroku_4dd231616dd25d5.hello;  
 </sql:query> 
 
-<c:forEach var="table" items="${rs.rows}"> <c:out value"${table.name}"/></c:forEach>
+<c:forEach var="table" items="${rs.rows}"> <c:out value"${table.message}"/></c:forEach>
 
 
