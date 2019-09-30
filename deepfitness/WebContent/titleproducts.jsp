@@ -12,7 +12,7 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/sql" prefix="sql"%>
 
 
-<sql:setDataSource var="db"  
+<sql:setDataSource var="db"  driver="com.mysql.cj.jdbc.Driver" 
      url="jdbc:mysql://@us-cdbr-iron-east-05.cleardb.net/heroku_4dd231616dd25d5"  
      user="bf9f720354143"  password="f32bf948"/>  
   
