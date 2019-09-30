@@ -13,7 +13,7 @@
 
 
 <sql:setDataSource var="db"  
-     url="jdbc:mysql://@us-cdbr-iron-east-05.cleardb.net/heroku_4dd231616dd25d5"  
+     url="jdbc:mysql://mysql://@us-cdbr-iron-east-05.cleardb.net/heroku_4dd231616dd25d5"  
      user="bf9f720354143"  password="f32bf948"/>  
   
 <sql:query dataSource="${db}" var="rs">  
