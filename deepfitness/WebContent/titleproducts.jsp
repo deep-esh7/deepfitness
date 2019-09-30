@@ -12,12 +12,14 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/sql" prefix="sql"%>
 
 
-<sql:setDataSource var="db" driver="com.mysql.cj.jdbc.Driver"  
-     url="jdbc:mysql://piz5tlqe47copymd:ry5fl3paiph1nnbv@m7nj9dclezfq7ax1.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/vglkqr7c052ybt59"  
-     user="piz5tlqe47copymd"  password="ry5fl3paiph1nnbv"/>  
+<sql:setDataSource var="db"  
+     url="jdbc:mysql://@us-cdbr-iron-east-05.cleardb.net/heroku_4dd231616dd25d5"  
+     user="bf9f720354143"  password="f32bf948"/>  
   
 <sql:query dataSource="${db}" var="rs">  
 SELECT * from hello;  
 </sql:query> 
 
 <c:forEach var="table" items="${rs.rows}"> <c:out value"${table.name}"/></c:forEach>
+
+
