@@ -41,18 +41,7 @@
      url="jdbc:mysql://piz5tlqe47copymd:ry5fl3paiph1nnbv@m7nj9dclezfq7ax1.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/vglkqr7c052ybt59/deep7"  
      user="piz5tlqe47copymd"  password="ry5fl3paiph1nnbv"/>  
   
-<sql:query dataSource="${db}" var="rs">  
-SELECT * from products where ProductId=13;  
-</sql:query>  
-<sql:query dataSource="${db}" var="rs2">  
-SELECT * from products where ProductId=12;  
-</sql:query> 
-<sql:query dataSource="${db}" var="rs3">  
-SELECT * from products where ProductId=14;  
-</sql:query> 
-<sql:query dataSource="${db}" var="rs4">  
-SELECT * from products;  
-</sql:query> 
+
 <title>Insert title here</title>
 </head>
 <body>
