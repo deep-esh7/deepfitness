@@ -13,7 +13,7 @@
 
 
 <sql:setDataSource var="db" driver="com.mysql.cj.jdbc.Driver"  
-     url="jdbc:mysql://piz5tlqe47copymd:ry5fl3paiph1nnbv@m7nj9dclezfq7ax1.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/vglkqr7c052ybt59/vglkqr7c052ybt59"  
+     url="jdbc:mysql://piz5tlqe47copymd:ry5fl3paiph1nnbv@m7nj9dclezfq7ax1.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/vglkqr7c052ybt59"  
      user="piz5tlqe47copymd"  password="ry5fl3paiph1nnbv"/>  
   
 <sql:query dataSource="${db}" var="rs">  
