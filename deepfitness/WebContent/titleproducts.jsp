@@ -13,7 +13,7 @@
 
 
 <sql:setDataSource var="db"  driver="com.mysql.cj.jdbc.Driver" 
-     url="jdbc:mysql://@us-cdbr-iron-east-05.cleardb.net/heroku_4dd231616dd25d5"  
+     url="jdbc:mysql://@us-cdbr-iron-east-05.cleardb.net/"  
      user="bf9f720354143"  password="f32bf948"/>  
   
 <sql:query dataSource="${db}" var="rs">  
