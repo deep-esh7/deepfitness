@@ -20,4 +20,4 @@
 SELECT * from hello;  
 </sql:query> 
 
-<c:forEach var="table" items="${rs.rows}"> ${table.name}</c:forEach>
+<c:forEach var="table" items="${rs.rows}"> <c:out value"${table.name}"/></c:forEach>
