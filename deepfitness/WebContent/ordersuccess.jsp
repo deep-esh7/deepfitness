@@ -108,13 +108,13 @@ th, td {
 <table>
  <div class="card bg-light">
 <article class="card-body mx-auto" style="max-width: 400px;">
-
+<center>
 	
 <br><br> 
 <br><br>
 <h3><font color="red">IMPORTANT NOTE:</font></h3> <h4><font color="darkred">Please Enter Correct Amount As Mentioned<br> With Product & Make The Payment<br> Successfully To Receive Your Order On Time . Please Also Note That If We Receive Less Or <br>More Then As Mentioned Amount We Will Intiate A Refund And Cancel The Order<br> (Refund will be processed 24-72 working hrs).<br> THANK YOU!</font><br><br> <br><br> </h4>
 </table></center></article>
-<
+
 </div>
 
 </body>

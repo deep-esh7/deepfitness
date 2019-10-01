@@ -16,7 +16,7 @@
 				 href="User?content=contact">CONTACT</a></li></div>
 				
 					 <div class="animated fadeInLeft"><li class="nav-item"><a class="nav-link" 
-				 href="/Project/Logout">LOGOUT</a></li>
+				 href="./Logout">LOGOUT</a></li>
 				</div>
 	  </ul></b>
 </nav>

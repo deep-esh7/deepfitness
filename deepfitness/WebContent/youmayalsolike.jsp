@@ -48,7 +48,7 @@ SELECT * from products where ProductId=13;
 SELECT * from products where ProductId=12;  
 </sql:query> 
 <sql:query dataSource="${db}" var="rs3">  
-SELECT * from products where ProductId=21;  
+SELECT * from products where ProductId=41;  
 </sql:query> 
 <sql:query dataSource="${db}" var="rs4">  
 SELECT * from products;  
