@@ -38,8 +38,8 @@
   font-color: #3366cc; }
   </style>
 <sql:setDataSource var="db" driver="com.mysql.cj.jdbc.Driver"  
-     url="jdbc:mysql://localhost/deep7"  
-     user="root"  password="root"/>  
+     url="jdbc:mysql://us-cdbr-iron-east-05.cleardb.net/heroku_4dd231616dd25d5?reconnect=true"  
+     user="bf9f7203541431"  password="f32bf948"/>  
   
 <sql:query dataSource="${db}" var="rs">  
 SELECT * from products where ProductId=13;  
