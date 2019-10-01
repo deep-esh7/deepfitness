@@ -16,7 +16,7 @@ public class uploadserver {
 			Class.forName("com.mysql.jdbc.Driver");
 			// getting the connection from DriverManager factory Class by passing the
 			// connection url and credentials
-			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/deep7", "root", "root");
+			con = DriverManager.getConnection("jdbc:mysql://us-cdbr-iron-east-05.cleardb.net/heroku_4dd231616dd25d5?reconnect=true", "bf9f7203541431", "f32bf948");
 			// creating prepared statement for our required query
 			PreparedStatement statement = con.prepareStatement("insert into Products(imgurl,name,description,price,titleimages) values (?,?,?,?,?)");
 			// setting the parameters
