@@ -117,7 +117,7 @@
  
 
 .block {
-  height: 22em;
+  height: 100%;
   line-height: 20em;
   width: 100%;
   background: #464646;
