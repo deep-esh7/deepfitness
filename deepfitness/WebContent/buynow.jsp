@@ -219,27 +219,27 @@ Product Name: <c:out value=" ${table.name}"/><br>
     <input type="hidden" placeholder="" value="<c:out value=" ${table.price}"/>" name="productprice" required>
 
 	 <label for="name"><b>Name:</b></label>
-    <input type="text" placeholder="Enter Name" size="100%"name="name" required><br>
+    <input type="text" placeholder="Enter Name" style="margin-left: 29px;" size="70"name="name" required><br>
 <br>
     <label for="email"><b>Email ID:</b></label>
-    <input type="email"  size="100%" placeholder="Email"  name="email" required>
+    <input type="email"  size="70" placeholder="Email" style="margin-left: 12px;" name="email" required>
     <br>
 <br>
     <label for="address"><b>Address:</b></label>
-    <input type="text"  size=100% placeholder="Address"  name="address" required><br>
+    <input type="text"  size="70" placeholder="Address" style="margin-left: 15px;" name="address" required><br>
   <br>
   <label for="city"><b>City:</b></label>
-    <input type="text"  size=100% placeholder="City"  name="city" required><br>
+    <input type="text"  size="70" placeholder="City" style="margin-left: 47px;" name="city" required><br>
  <br>
  <label for="state"><b>State:</b></label>
-    <input type="text"  size="100%" placeholder="Address"  name="state" required><br>
+    <input type="text"  size="70" placeholder="Address" style="margin-left: 38px;" name="state" required><br>
 <br>
  <label for="state"><b>Pincode:</b></label>
-    <input type="text"  size="100%" placeholder="Pincode"  name="pincode" required><br>
+    <input type="text"  size="70" placeholder="Pincode" style="margin-left: 12px;" name="pincode" required><br>
 
  <br>
   <label for="mobile"><b>Mobile No:</b></label>
-    <input type="text"  size="100%" placeholder="Mobile No."  name="mobile" required><br>
+    <input type="text"  size="70" placeholder="Mobile No." style="margin-right: 5px;" name="mobile" required><br>
 <br> <input type="submit" class="btn btn-success btn-lg">
    <br><br> <br><br><br> <br><hr>                                                           
 </form>
