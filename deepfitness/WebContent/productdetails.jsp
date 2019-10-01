@@ -20,7 +20,9 @@
 }
 .borderimg { 
   border: 2px solid transparent;
-  background: black;}
+  background: black;
+  width: 100%;
+  height: auto;}
 /* [3] Finally, transforming the image when container gets hovered */
 .img-hover-zoom:hover img {
   transform: scale(1.2);
@@ -61,7 +63,7 @@ SELECT * from products where ProductId='${param.id}';
 </head>
 <body>
 <center>
-  <center class="animatable fadeInRight"><a href=""><img class="borderimg" src="images/banner_1520x90.jpg" width="100%" height="100%"/></a></center>
+  <center class="animatable fadeInRight"><a href=""><img class="borderimg" src="images/banner_1520x90.jpg" /></a></center>
 <br> <br><br><br><br><br><table ><tr><td>
 <div class="container" >
   <h2></h2>  

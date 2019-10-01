@@ -63,7 +63,9 @@ SELECT * from products;
   
   .borderimg { 
   border: 2px solid transparent;
-  background: black;}
+  background: black;
+  width: 100%;
+  height: auto;}
 /* [3] Finally, transforming the image when container gets hovered */
 
   </style>
@@ -77,7 +79,7 @@ SELECT * from products;
 
   }</style>
 <br>
-  <center class="animatable fadeInRight"><a href=""><img class="borderimg" src="images/banner_1520x90.jpg" width="100%" height="100%"/></a></center>
+  <center class="animatable fadeInRight"><a href=""><img class="borderimg" src="images/banner_1520x90.jpg" /></a></center>
 <br>
 
   
