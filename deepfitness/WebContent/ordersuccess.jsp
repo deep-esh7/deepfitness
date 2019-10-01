@@ -24,9 +24,9 @@
    
   
   
-<sql:query dataSource="${db}" var="rs">  
-SELECT * from products where ProductId='${param.id}';  
-</sql:query>  
+<sql:setDataSource var="db" driver="com.mysql.cj.jdbc.Driver"  
+     url="jdbc:mysql://us-cdbr-iron-east-05.cleardb.net/heroku_4dd231616dd25d5?reconnect=true"  
+     user="bf9f7203541431"  password="f32bf948"/>  
 
 <c:forEach var="table" items="${rs.rows}">  
   
