@@ -699,7 +699,7 @@
           <h1>TRAINING</h1>
         </div>
         <div class="thumbnail">
-         <img src="images/train_500x331.jpg"/>
+         <img src="images/train_1_520x400.jpg"/>
                    <p><a href=""><font color="black"><strong>Weight training is an excellent workout, you'll really get your heart rate up by adding in some body movements to your circuit training plan.</font></strong>
                    <br> <font color="red">Read More...!</font></a></p>
         </div>
@@ -714,7 +714,7 @@
           <h1>NUTRITION</h1>
         </div>
      <div class="thumbnail">
-         <img src="images/nutrition_500x331.jpg"> 
+         <img src="images/nutrition_2_520x400.jpg"> 
           <p><a href=""><font color="black"><strong>For muscle growth nutrition is the main key, this is the most important factor for muscle growth to occur.</strong></font> <br><font color="red">Read More...!</font></a> </p>
         </div>
        </div>
