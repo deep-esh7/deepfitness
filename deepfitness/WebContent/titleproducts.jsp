@@ -9,7 +9,7 @@
      
      
      <sql:query dataSource="${db}" var="rs">  
-SELECT * from hello';  
+SELECT * from hello;  
 </sql:query>  
 
 <c:forEach var="table" items="${rs.rows}">  
