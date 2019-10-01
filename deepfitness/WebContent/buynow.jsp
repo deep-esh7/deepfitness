@@ -8,14 +8,14 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 <meta charset="ISO-8859-1">
-<title><sql:setDataSource var="db" driver="com.mysql.jdbc.Driver"  
-     url="jdbc:mysql://localhost/deep7"  
-     user="root"  password="root"/>  
+<title><<sql:setDataSource var="db" driver="com.mysql.cj.jdbc.Driver"  
+     url="jdbc:mysql://us-cdbr-iron-east-05.cleardb.net/heroku_4dd231616dd25d5?reconnect=true"  
+     user="bf9f7203541431"  password="f32bf948"/>  
      
   
-<sql:setDataSource var="db" driver="com.mysql.cj.jdbc.Driver"  
-     url="jdbc:mysql://us-cdbr-iron-east-05.cleardb.net/heroku_4dd231616dd25d5?reconnect=true"  
-     user="bf9f7203541431"  password="f32bf948"/>    </title>
+<sql:query dataSource="${db}" var="rs">  
+SELECT * from products where ProductId='${param.id}';  
+</sql:query>  </title>
 </head>
 <body>
 
