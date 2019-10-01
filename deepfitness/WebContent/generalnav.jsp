@@ -1,7 +1,7 @@
-<nav class="navbar navbar-expand-sm bg-white navbar-light">
+<nav class="navbar navbar-expand-sm bg-white navbar-light" style="margin-left:200px">
  <b> <ul class="navbar-nav">
     <li class="nav-item">
-    <div class="animated fadeInRight ">  <a class="nav-link" style="margin-left:200px" href="Index?Content=home">HOME</a>
+    <div class="animated fadeInRight ">  <a class="nav-link"  href="Index?Content=home">HOME</a>
     </li></div>
     
     <div class="animated fadeInRight "><li class="nav-item">
