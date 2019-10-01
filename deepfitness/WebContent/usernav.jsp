@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-sm bg-white navbar-light" style="margin-left:100px">
+<nav class="navbar navbar-expand-sm bg-white navbar-light" style="margin-left:50px">
  <b> <ul class="navbar-nav">
     <li class="nav-item" >
       <div class="animated fadeInRight "><a class="nav-link"  href="User?content=home">HOME</a></div></li>
