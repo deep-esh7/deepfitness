@@ -62,7 +62,7 @@ SELECT * from products where ProductId='${param.id}';
 <body>
 <center>
   <center class="animatable fadeInRight"><a href=""><img class="borderimg" src="images/banner.jpg" width="1520" height="90"/></a></center>
-<br> <br><br><br><br><br><table><tr><td>
+<br> <br><br><br><br><br><table ><tr><td>
 <div class="container" >
   <h2></h2>  
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -107,6 +107,7 @@ table, td, th {
 }
 
 table {
+width: 100%;
   border-collapse: collapse;
   
   font-size: 20px;
