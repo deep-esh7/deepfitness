@@ -77,7 +77,7 @@ SELECT * from products;
 
   }</style>
 <br>
-  <center class="animatable fadeInRight"><a href=""><img class="borderimg" src="images/banner.jpg" width="1520" height="90"/></a></center>
+  <center class="animatable fadeInRight"><a href=""><img class="borderimg" src="images/banner_1520x90.jpg" width="100%" height="100%"/></a></center>
 <br>
 
   

@@ -55,7 +55,7 @@ SELECT * from products;
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
 <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 <!------ Include the above in your HEAD tag ---------->
-<center><a href=""><img class="borderimg" src="images/banner.jpg" width="1520" height="90"/></a></center>
+<center><a href=""><img class="borderimg" src="images/banner_1520x90.jpg" width="100%" height="100%"/></a></center>
 <c:forEach var="table" items="${rs.rows}">
 <div class="container">
     <div class="row"> 
