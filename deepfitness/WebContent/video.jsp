@@ -10,14 +10,16 @@
 <style>
 
 .spread-video > video {
-  width: 200%;
-  margin-left: -50%;
+  width: 100%;
+  height: auto;
+  margin-left: 0%;
 }
 .spread-video{
   overflow: hidden;
 }</style>
-<div class="spread-video">
-  <video src="videos/videoplayba.mp4" autoplay="" muted loop="">
+<br><br>
+<div class="spread-video animatable bounceInUp">
+  <video src="videos/final_5d94818eddc2640014472591_631620.mp4" autoplay="" muted loop="">
   </video>
 </div>
 
