@@ -11,12 +11,22 @@
 .video-div{
 
 height: auto;
-width: 100%;
+width: max-width: 100%;
 }</style>
-<center><div class="video-div" style="margin-top:50px">
-					<video autoplay muted loop id="video" poster="/cover.png">
-					  <source src="videos/videoplayba.mp4" type="video/mp4">
-					</video>
-				</div></center>
+
+<style>
+.video {
+  width: max-width: 100%;
+  height: auto;
+}
+</style>
+</head>
+<body>
+
+<video  autoplay muted loop id="video" poster="/cover.png">>
+  <source src="videos/videoplayba.mp4" type="video/mp4">
+  
+  Your browser does not support HTML5 video.
+</video>
 </body>
 </html>
