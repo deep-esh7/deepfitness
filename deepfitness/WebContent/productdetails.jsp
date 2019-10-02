@@ -78,15 +78,15 @@ SELECT * from products where ProductId='${param.id}';
     <!-- Wrapper for slides -->
   <center>   <div class="carousel-inner">
  <div class="item active">
-   <div class="img-hover-zoom"> <img src="${table.titleimages}" alt="Los Angeles" style="width:550; height:450;">
+   <div class="img-hover-zoom"> <img src="${table.titleimages}" alt="Los Angeles" style="width:100%; height:100%;">
       </div>  </div>
 
       <div class="item">
-       <div class="img-hover-zoom" > <img src="${table.titleimages}"  alt="Chicago" style="width:550; height:450;">
+       <div class="img-hover-zoom" > <img src="${table.titleimages}"  alt="Chicago" style="width:100%; height:100%;">
       </div></div>
     
       <div class="item">
-        <div class="img-hover-zoom" ><img src="${table.titleimages}" alt="New york" style="width:550; height:450;">
+        <div class="img-hover-zoom" ><img src="${table.titleimages}" alt="New york" style="width:100%; height:100%;">
     </div>  </div>
     </div>
 
