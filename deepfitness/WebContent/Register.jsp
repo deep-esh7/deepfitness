@@ -4,11 +4,6 @@
 <html>
 
 <body>
- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-
 
 
 
@@ -207,7 +202,7 @@ jQuery( function($) {
 
 
 
-<div class="card bg-light">
+<div class="card bg-light"><center>
 <article class="card-body mx-auto" style="max-width: 400px;">
 	<h4 class="card-title mt-3 text-center">Create Account</h4>
 	<p class="text-center">Get started with your free account</p>
@@ -269,7 +264,7 @@ jQuery( function($) {
 </form>
 </article>
 </div> <!-- card.// -->
-
+</center>
 </div> 
 <!--container end.//-->
 
