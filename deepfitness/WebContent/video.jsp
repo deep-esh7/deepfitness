@@ -7,6 +7,12 @@
 <title>Insert title here</title>
 </head>
 <body>
+<style>
+.video-div{
+
+height: auto;
+width: 100%;
+}</style>
 <center><div class="video-div" style="margin-top:50px">
 					<video autoplay muted loop id="video" poster="/cover.png">
 					  <source src="videos/videoplayba.mp4" type="video/mp4">
