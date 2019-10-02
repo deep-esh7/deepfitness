@@ -48,7 +48,13 @@ jQuery(function($) {
 padding: 0;}
 
 .div{
-background: black;
+  position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;
 }
 </style>
 <br><br><br>
