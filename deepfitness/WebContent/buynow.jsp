@@ -3,10 +3,7 @@
     pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html>
-<head> <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<head> 
 <meta charset="ISO-8859-1">
 <title>Buy Now</title><sql:setDataSource var="db" driver="com.mysql.cj.jdbc.Driver"  
      url="jdbc:mysql://us-cdbr-iron-east-05.cleardb.net/heroku_4dd231616dd25d5?reconnect=true"  
@@ -135,7 +132,72 @@ th, td {
     border: 1px solid blue; 
     border-radius:0 !important;
     transition: box-shadow 0.5s;
-  }</style>
+  }
+  
+  
+  * {
+  box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+.input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+.input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}</style>
   
 		<div id="messageDiv" style="display: none;"></div>
 	
@@ -206,7 +268,7 @@ th, td {
 
    <br><b>ProductId: <c:out value=" ${table.ProductId}"/><br>
 Product Name: <c:out value=" ${table.name}"/><br>
- Product Price: <c:out value=" ${table.price}"/></b> <br><br><font color="red">Please Enter Your Delivery Details!</font> <br><br></tr>
+ Product Price: <c:out value=" ${table.price}"/></b> <br><br><font color="red">Please Enter Your Delivery Details!</font> <br></tr>
 
 	
 	<form action="order" method="post">
@@ -217,30 +279,30 @@ Product Name: <c:out value=" ${table.name}"/><br>
     <input type="hidden" placeholder="" value="<c:out value=" ${table.name}"/>" name="productname" required>
  <label for="productprice"><b></b></label>
     <input type="hidden" placeholder="" value="<c:out value=" ${table.price}"/>" name="productprice" required>
-
-	 <label for="name"><b>Name:</b></label>
-    <input type="text" placeholder="Enter Name" style="margin-left: 29px;" size="70"name="name" required><br>
-<br>
-    <label for="email"><b>Email ID:</b></label>
-    <input type="email"  size="70" placeholder="Email" style="margin-left: 12px;" name="email" required>
-    <br>
-<br>
-    <label for="address"><b>Address:</b></label>
-    <input type="text"  size="70" placeholder="Address" style="margin-left: 15px;" name="address" required><br>
-  <br>
-  <label for="city"><b>City:</b></label>
-    <input type="text"  size="70" placeholder="City" style="margin-left: 47px;" name="city" required><br>
- <br>
- <label for="state"><b>State:</b></label>
-    <input type="text"  size="70" placeholder="Address" style="margin-left: 38px;" name="state" required><br>
-<br>
- <label for="state"><b>Pincode:</b></label>
-    <input type="text"  size="70" placeholder="Pincode" style="margin-left: 12px;" name="pincode" required><br>
-
- <br>
-  <label for="mobile"><b>Mobile No:</b></label>
-    <input type="text"  size="70" placeholder="Mobile No." style="margin-right: 5px;" name="mobile" required><br>
-<br> <input type="submit" class="btn btn-success btn-lg">
+<div class="container">
+	 <div class="row">
+      <div class="col-25"><label for="name"><b>Name:</b></label></div>
+     <div class="col-75"> <input type="text" placeholder="Enter Name" name="name" required></div> </div>
+    <div class="row">
+      <div class="col-25"><label for="email"><b>Email ID:</b></label></div>
+    <div class="col-75"> <input type="text"  placeholder="Email"  name="email" required></div></div>
+ <div class="row">
+      <div class="col-25">
+    <label for="address"><b>Address:</b></label></div>
+    <div class="col-75"> <input type="text"  placeholder="Address" name="address" required></div></div>
+ <div class="row">
+      <div class="col-25"> <label for="city"><b>City:</b></label></div>
+   <div class="col-75"> <input type="text"  placeholder="City" name="city" required></div></div>
+ <div class="row">
+      <div class="col-25"><label for="state"><b>State:</b></label></div>
+     <div class="col-75"><input type="text" placeholder="State"  name="state" required></div></div>
+ <div class="row">
+      <div class="col-25"><label for="state"><b>Pincode:</b></label></div>
+   <div class="col-75"> <input type="text" placeholder="Pincode" name="pincode" required></div></div>
+ <div class="row">
+      <div class="col-25"> <label for="mobile"><b>Mobile No:</b></label></div>
+   <div class="col-75"> <input type="text" placeholder="Mobile No." name="mobile" required></div></div> 
+  <center><br> <input type="submit" class="btn btn-success btn-lg"></center>
    <br><br> <br><br><br> <br><hr>                                                           
 </form>
 
