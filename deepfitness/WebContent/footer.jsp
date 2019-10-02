@@ -55,7 +55,7 @@ padding: 0;}
    background-color: black;
    color: white;
    text-align: center;
-   margin-top:40px;
+   margin-top:25px;
 }
 </style>
 <br><br><br>
