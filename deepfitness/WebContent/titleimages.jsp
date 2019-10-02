@@ -2,7 +2,13 @@
     width: 100%;
     height: 100%;
 
-  }</style><center>
+  }</style>
+  
+ <head>
+  
+
+</head>
+ <center>
 <div id="demo" class="carousel slide" data-ride="carousel">
   <ul class="carousel-indicators">
     <li data-target="#demo" data-slide-to="0" class="active"></li>

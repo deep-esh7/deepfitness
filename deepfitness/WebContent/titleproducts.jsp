@@ -85,7 +85,7 @@ SELECT * from products;
   
   <center>
   
-   <div data-wow-offset="200" class="animatable bounceInUp">
+   <div data-wow-offset="200" class="animatable fadeInUp">
 <div id="demo" class="carousel slide" data-ride="carousel">
   <ul class="carousel-indicators">
     <li data-target="#demo1" data-slide-to="0" class="active"></li>

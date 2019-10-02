@@ -20,7 +20,7 @@
 <style>
 table, td, th {  
   border: 1px solid #ddd;
-  text-align: left;
+  text-align: center;
 }
 
 table {
@@ -37,11 +37,11 @@ th, td {
   border: 2px solid transparent;
   background: black;}
 </style>
- <center class="animatable fadeInRight"><a href=""><img class="borderimg" src="images/banner.jpg" width="1520" height="90"/></a></center>
+ <center class="animatable fadeInRight"><a href=""><img class="borderimg" src="images/banner_1520x90.jpg" /></a></center>
 
 <br><br><br>
 <center>
-<table width="800">
+<table width="100%">
 <tr><td>
 
 <h1><center>
@@ -54,13 +54,12 @@ th, td {
 <center>
 
 
-<table width="1000">
+<table width="100%">
 <tr><td>
 
 <center>
 <h3><font color="red">IMPORTANT NOTE:</font></h3> <h4><font color="darkred">Please Enter Correct Amount As Mentioned<br> With Product & Make The Payment<br> Successfully To Receive Your Order On Time . Please Also Note That If We Receive Less Or <br>More Then As Mentioned Amount We Will Intiate A Refund And Cancel The Order<br> (Refund will be processed 24-72 working hrs).<br> THANK YOU!</font><br><br> <br><br> </h4>
 
-<br>
 </td></tr></table></center>
 
 

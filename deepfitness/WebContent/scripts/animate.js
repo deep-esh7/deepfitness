@@ -1,9 +1,4 @@
-<head>
-  
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
-  <link rel="stylesheet" href="css/animation.css">
-</head>
-<script type="text/javascript">// Trigger CSS animations on scroll.
+// Trigger CSS animations on scroll.
 //Detailed explanation can be found at http://www.bram.us/2013/11/20/scroll-animations/
 
 //Looking for a version that also reverses the animation when
@@ -38,26 +33,7 @@ jQuery(function($) {
 	$(window).on('scroll', doAnimations);
  $(window).trigger('scroll');
 
-});</script>
+});
   
   
-
-  
-<style type="text/css">
-*{
-padding: 0;}
-
-.div{
-background: black;
-}
-</style>
-<br><br><br>
-<center class="div"><br><b><font color="white" style="margin-bottom: -50px;"><center>DEEP Fitness is an fitness freak guy who is inspiring the youth by his information and knowledge about fitness<br>
-Contact Us @ 9557920831<br>DEEP FITNESS (2018-2019)</center>
-</font></b>
-
-<br>
-
-</nav></center>
-
 
