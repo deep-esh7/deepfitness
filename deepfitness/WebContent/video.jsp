@@ -8,25 +8,18 @@
 </head>
 <body>
 <style>
-.video-div{
 
-height: auto;
-width: max-width: 100%;
-}</style>
-
-<style>
-.video {
-  width: max-width: 100%;
-  height: auto;
+.spread-video > video {
+  width: 200%;
+  margin-left: -50%;
 }
-</style>
-</head>
-<body>
+.spread-video{
+  overflow: hidden;
+}</style>
+<div class="spread-video">
+  <video src="videos/videoplayba.mp4" autoplay="" muted loop="">
+  </video>
+</div>
 
-<video  autoplay muted loop id="video" poster="/cover.png">>
-  <source src="videos/videoplayba.mp4" type="video/mp4">
-  
-  Your browser does not support HTML5 video.
-</video>
 </body>
 </html>
