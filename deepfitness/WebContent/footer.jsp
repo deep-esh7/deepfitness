@@ -47,31 +47,22 @@ jQuery(function($) {
 *{
 padding: 0;}
 
-table, td, th {  
-  border: 1px solid #ddd;
-  text-align: left;
-}
-
-table {
-width: 100%;
-  border-collapse: collapse;
-  background: black;
-  
-  font-size: 15px;
-  font-weight:;
-}
-
-th, td {
-  padding: 15px;
+.div{
+  position: auto;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;
    margin-top:25px;
-
 }
 </style>
 <br><br><br>
-<table><tr><td><br><b><font color="white"  ><center>DEEP Fitness is an fitness freak guy who is inspiring the youth by his information and knowledge about fitness<br>
+<center class="div"><br><b><font color="white" style="margin-bottom: -50px;  "><center>DEEP Fitness is an fitness freak guy who is inspiring the youth by his information and knowledge about fitness<br>
 Contact Us @ 9557920831<br>DEEP FITNESS (2018-2019)</center>
-</font></b></td></tr>
-</table>
+</font></b>
+
 <br>
 
 </nav></center>
