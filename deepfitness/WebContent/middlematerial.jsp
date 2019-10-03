@@ -31,7 +31,7 @@
         </div>
         <div class="thumbnail">
          <img src="images/train_1_520x400.jpg"/>
-                   <p><a href=""><font color="black"><strong>Weight training is an excellent workout, you'll really get your heart rate up by adding in some body movements to your circuit training plan.</font></strong>
+                   <p><a href=""><font color="black"><strong>Weight training is an excellent workout, you'll really get your heart rate up by adding in some body movements to your circuit training.</font></strong>
                    <br> <font color="red">Read More...!</font></a></p>
         </div>
        </div>
