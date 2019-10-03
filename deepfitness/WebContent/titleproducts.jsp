@@ -98,8 +98,8 @@ SELECT * from products;
  
  <div class="row">
     <div class="col-md-4">
-      <div class="thumbnail">
-      <div class="animatable fadeInUp"> <div class="img-hover-zoom">
+   <div class="animatable fadeInUp">   <div class="thumbnail">
+     <div class="img-hover-zoom">
            <c:forEach var="table" items="${rs.rows}">  
 <img src="${table.titleimages}" style="width:100%" height="100%"/>
 
@@ -111,8 +111,8 @@ SELECT * from products;
       </div>
     </div>
     <div class="col-md-4">
-      <div class="thumbnail">
-      <div class="animatable fadeInUp">  <div class="img-hover-zoom"> 
+   <div class="animatable fadeInUp">   <div class="thumbnail">
+     <div class="img-hover-zoom"> 
           <c:forEach var="table" items="${rs2.rows}">  
 <img src="${table.titleimages}" style="width:100%" height="100%"/>
 
@@ -123,8 +123,8 @@ SELECT * from products;
       </div>
     </div>
     <div class="col-md-4">
-      <div class="thumbnail">
-     <div class="animatable fadeInUp">  <div class="img-hover-zoom">
+     <div class="animatable fadeInUp"> <div class="thumbnail">
+       <div class="img-hover-zoom">
           <c:forEach var="table" items="${rs3.rows}">  
 <img src="${table.titleimages}" style="width:100%" height="100%"/>
 
@@ -156,8 +156,8 @@ SELECT * from products;
       </div>
     </div>
     <div class="col-md-4">
-      <div class="thumbnail">
-    <div class="animatable fadeInUp">   <div class="img-hover-zoom">
+     <div class="animatable fadeInUp">   <div class="thumbnail">
+     <div class="img-hover-zoom">
         
           <c:forEach var="table" items="${rs2.rows}">  
 <img src="${table.titleimages}" style="width:100%" height="100%"/>
@@ -169,8 +169,8 @@ SELECT * from products;
       </div>
     </div>
     <div class="col-md-4">
-      <div class="thumbnail">
-    <div class="animatable fadeInUp">   <div class="img-hover-zoom">
+    <div class="animatable fadeInUp">  <div class="thumbnail">
+       <div class="img-hover-zoom">
       
           <c:forEach var="table" items="${rs3.rows}">  
 <img src="${table.titleimages}" style="width:100%" height="100%"/>
@@ -189,8 +189,8 @@ SELECT * from products;
  
  <div class="row">
     <div class="col-md-4">
-      <div class="thumbnail">
-      <div class="animatable fadeInUp"> <div class="img-hover-zoom">
+    <div class="animatable fadeInUp">   <div class="thumbnail">
+       <div class="img-hover-zoom">
        
            <c:forEach var="table" items="${rs.rows}">  
 <img src="${table.titleimages}" style="width:100%" height="100%"/>
@@ -204,7 +204,7 @@ SELECT * from products;
     </div>
     <div class="col-md-4">
       <div class="thumbnail">
-     <div class="animatable fadeInUp">  <div class="img-hover-zoom">
+      <div class="animatable fadeInUp"> <div class="img-hover-zoom">
         
           <c:forEach var="table" items="${rs2.rows}">  
 <img src="${table.titleimages}" style="width:100%" height="100%"/>
@@ -216,8 +216,8 @@ SELECT * from products;
       </div>
     </div>
     <div class="col-md-4">
-      <div class="thumbnail">
-     <div class="animatable fadeInUp">  <div class="img-hover-zoom">
+     <div class="animatable fadeInUp"> <div class="thumbnail">
+       <div class="img-hover-zoom">
       
           <c:forEach var="table" items="${rs3.rows}">  
 <img src="${table.titleimages}" style="width:100%" height="100%"/>
