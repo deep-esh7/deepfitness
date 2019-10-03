@@ -270,6 +270,12 @@ jQuery( function($) {
 <!--container end.//-->
 
 <br><br>
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+<center><a href=""><img class="borderimg" src="images/banner_1520x90.jpg"/></a></center>
+<c:forEach var="table" items="${rs.rows}">
 <div class="container">
     <div class="row"> 
         <div class="col-sm-12 col-md-10 col-md-offset-1">
@@ -307,6 +313,10 @@ jQuery( function($) {
 
 
  </c:forEach>
+
+
+
+
 </body>
 </html>
 <jsp:include page="footer.jsp"></jsp:include>
