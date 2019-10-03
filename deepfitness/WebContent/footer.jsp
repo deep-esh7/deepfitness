@@ -1,6 +1,5 @@
-<head>
-  
-  
+
+
   
 <style type="text/css">
 *{
