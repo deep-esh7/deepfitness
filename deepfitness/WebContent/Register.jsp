@@ -275,7 +275,7 @@ jQuery( function($) {
 <%@ page import="javax.servlet.http.*,javax.servlet.*" %>  
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>  
 <%@ taglib uri="http://java.sun.com/jsp/jstl/sql" prefix="sql"%>  
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
    
 
 <head>    <style>
@@ -317,9 +317,7 @@ jQuery( function($) {
 SELECT * from products;  
 </sql:query>  
 
-<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
-<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
 <!------ Include the above in your HEAD tag ---------->
 <center><a href=""><img class="borderimg" src="images/banner_1520x90.jpg"/></a></center>
 <c:forEach var="table" items="">
