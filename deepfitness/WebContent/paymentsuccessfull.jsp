@@ -64,8 +64,7 @@ th, td {
 
 
 
-
+<jsp:include page="footer.jsp"></jsp:include>
 
 </body>
 </html>
-<jsp:include page="footer.jsp"></jsp:include>

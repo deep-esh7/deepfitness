@@ -116,7 +116,6 @@ th, td {
 </table></center></article>
 
 </div>
-
+<jsp:include page="footer.jsp"></jsp:include>
 </body>
 </html>
-<jsp:include page="footer.jsp"></jsp:include>

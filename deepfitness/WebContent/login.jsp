@@ -258,6 +258,7 @@ response.setDateHeader ("Expires", 0);
 			}
 		}
 	</script>
+	<jsp:include page="footer.jsp"></jsp:include>
 </body>
 </html>
 
@@ -265,4 +266,4 @@ response.setDateHeader ("Expires", 0);
 
 
 
-<jsp:include page="footer.jsp"></jsp:include>
+
