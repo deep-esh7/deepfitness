@@ -85,7 +85,7 @@ SELECT * from products;
   
   <center>
   
-   <div data-wow-offset="200" class="animatable fadeInUp">
+  
 <div id="demo" class="carousel slide" data-ride="carousel">
   <ul class="carousel-indicators">
     <li data-target="#demo1" data-slide-to="0" class="active"></li>
@@ -95,7 +95,7 @@ SELECT * from products;
   <div class="carousel-inner">
     <div class="carousel-item active">
      <div class="container">
- 
+  <div class="animatable fadeInUp">
  <div class="row">
     <div class="col-md-4">
       <div class="thumbnail">
@@ -109,8 +109,8 @@ SELECT * from products;
         </c:forEach>  </div>
         
       </div>
-    </div>
-    <div class="col-md-4">
+    </div></div>
+    <div class="animatable fadeInUp"> <div class="col-md-4">
       <div class="thumbnail">
        <div class="img-hover-zoom"> 
           <c:forEach var="table" items="${rs2.rows}">  
@@ -121,8 +121,8 @@ SELECT * from products;
         </c:forEach>  </div>
         
       </div>
-    </div>
-    <div class="col-md-4">
+    </div></div>
+    <div class="animatable fadeInUp"> <div class="col-md-4">
       <div class="thumbnail">
       <div class="img-hover-zoom">
           <c:forEach var="table" items="${rs3.rows}">  
@@ -131,7 +131,7 @@ SELECT * from products;
 </c:forEach>  </div>
 <a href="${table.ProductId}"> <div class="caption"><c:forEach var="table" items="${rs3.rows}">
             <p><center><a href="productdetails.jsp?id=${table.ProductId}"><h3> ${table.name}</h3><button type="button" class="btn btn-lg">BUY NOW</button></a></center></p>
-        </c:forEach>  </div>
+        </c:forEach>  </div></a></div>
         
       </div>
     </div>
@@ -140,7 +140,7 @@ SELECT * from products;
     </div>
     <div class="carousel-item">
      <div class="container">
- 
+  <div class="animatable fadeInUp">
  <div class="row">
     <div class="col-md-4">
       <div class="thumbnail">
@@ -154,8 +154,8 @@ SELECT * from products;
         </c:forEach>  </div>
         
       </div>
-    </div>
-    <div class="col-md-4">
+    </div></div>
+   <div class="animatable fadeInUp">  <div class="col-md-4">
       <div class="thumbnail">
       <div class="img-hover-zoom">
         
@@ -165,10 +165,10 @@ SELECT * from products;
 </c:forEach>    </div>     <div class="caption"><c:forEach var="table" items="${rs2.rows}">
             <p><center><a href="${table.ProductId}"><h3> ${table.name}</h3><button type="button" class="btn btn-lg">BUY NOW</button></a></center></p>
         </c:forEach>  </div>
-        
+        </div>
       </div>
     </div>
-    <div class="col-md-4">
+   <div class="animatable fadeInUp">  <div class="col-md-4">
       <div class="thumbnail">
       <div class="img-hover-zoom">
       
@@ -178,13 +178,13 @@ SELECT * from products;
 </c:forEach> </div> <a href="${table.ProductId}"> <div class="caption"><c:forEach var="table" items="${rs3.rows}">
             <p><center><a href="${table.ProductId}"><h3> ${table.name}</h3><button type="button" class="btn btn-lg">BUY NOW</button></a></center></p>
         </c:forEach>  </div>
-        
+        </a></div>
       </div>
     </div>
   </div>
 </div>
     </div>
-    <div class="carousel-item">
+    <div class="animatable fadeInUp"> <div class="carousel-item">
      <div class="container">
  
  <div class="row">
@@ -199,10 +199,10 @@ SELECT * from products;
           <div class="caption"><c:forEach var="table" items="${rs.rows}">
             <p><center><a href="${table.ProductId}"><h3> ${table.name}</h3><button type="button" class="btn btn-lg">BUY NOW</button></a></center></p>
         </c:forEach>  </div>
-        
+        </div>
       </div>
     </div>
-    <div class="col-md-4">
+    <div class="animatable fadeInUp"> <div class="col-md-4">
       <div class="thumbnail">
       <div class="img-hover-zoom">
         
@@ -211,11 +211,11 @@ SELECT * from products;
 
 </c:forEach>    </div>     <div class="caption"><c:forEach var="table" items="${rs2.rows}">
             <p><center><a href="${table.ProductId}"><h3> ${table.name}</h3><button type="button" class="btn btn-lg">BUY NOW</button></a></center></p>
-        </c:forEach>  </div>
+        </c:forEach>  </div></div>
         
       </div>
     </div>
-    <div class="col-md-4">
+   <div class="animatable fadeInUp">  <div class="col-md-4">
       <div class="thumbnail">
       <div class="img-hover-zoom">
       
@@ -224,7 +224,7 @@ SELECT * from products;
 
 </c:forEach> </div> <a href="${table.ProductId}"> <div class="caption"><c:forEach var="table" items="${rs3.rows}">
             <p><center><a href="${table.ProductId}"><h3> ${table.name}</h3><button type="button" class="btn btn-lg">BUY NOW</button></a></center></p>
-        </c:forEach>  </div>
+        </c:forEach>  </div></a></div>
         
       </div>
     </div>
